@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="iconfont/iconfont.css">
     <link rel="shortcut icon" href="img/mi.png">
+    <script src="js/index.js"></script>
+    <script src="js/animate.js"></script>
 </head>
 <body>
 <!-- 头部开始 -->
@@ -65,44 +67,328 @@
                        <div class="shop-shopcar">
                        </div> 
                        <div class="shop-word">购物车</div>
+                       <div class="shop-box">
+                        购物车中没商品，赶紧选购吧！
+                        </div>
                     </a>
+                    
                 </div>
             </div>
         </div>
-        <!-- 搜索栏 -->
-        <div class="nav">
-
-            <a href="" class="nav-left"></a>
-            <div class="nav-content">
-                <ul>
-                    <li><a href="">小米手机</a></li>
-                    <li><a href="">红米</a></li>
-                    <li><a href="">平板 · 笔记本</a></li>
-                    <li><a href="">电视</a></li>
-                    <li><a href="">盒子· 影音</a></li>
-                    <li><a href="">路由器</a></li>
-                    <li><a href="">智能硬件</a></li>
-                    <li><a href="">服务</a></li>
-                    <li><a href="">社区</a></li>
-                </ul>
-            </div>
-            <div class="nav-right">
-                <div class="search-left">
-                    <ul>
-                       <a href=""> <li>小米Note 3</li></a>
-                        <a href=""><li>小米Max 2</li></a>
-                    </ul>
+<nav>
+    <div class="nav-box">
+        <a href="" class="nav-left">
+            <img src="img/xaiomitubiao.png" alt="">
+        </a>
+        <ul class="nav-center">
+            <li><a href="">小米手机</a> </li>
+            <li><a href="">红米</a></li>  
+            <li><a href="">平板 笔记本</a></li>
+            <li><a href="">电视</a></li>
+            <li><a href="">盒子 影音</a></li>
+            <li><a href="">路由器</a></li>
+            <li><a href="">智能硬件</a></li>
+            <li><a href="">服务</a></li>
+            <li><a href="">社区</a></li>
+             <div class="nav-items">
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/8.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/8.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/9.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/10.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
                 </div>
-                <a href="" class="search-right"></a>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/11.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/12.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/13.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/14.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/18.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/19.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/20.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/21.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/22.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/23.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/24.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/25.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/28.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/29.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/30.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/31.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/32.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/33.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/34.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/37.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/38.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/39.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/40.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/41.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="nav-item">
+                        <div class="navXu">
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/42.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                            <div class="navXu-son">
+                                <p>新品</p>
+                                <div class="navXu-sonimg">
+                                    <img src="img/43.png" alt="">
+                                </div>
+                                <p>红米5A</p>
+                                <p>3299起</p>
+                            </div>
+                        </div>
+                </div>
+    </div>
+        </ul>
+        
+        <div class="nav-right">
+            <div class="input-box">
+                <input type="text" class="nav-right1">
+                <div class="nav-right1-left">红米Note 5A</div>
+                <div class="nav-right1-right">小米Max 2</div>
+            </div>
+            <div class="nav-right2">    
+               
             </div>
         </div>
-        <!-- 搜索栏结束 -->
+    </div>
+   
+</nav>        <!-- 搜索栏结束 -->
         <!-- 头部结束 -->
 
         <!-- banner开始 -->
         <div class="banner">
             <ul class="banner-pic">
-                <li>
+                <li class="opacity">
                     <a href="">
                         <img src="img/banner-bijiben.jpg" alt="">
                     </a>
@@ -138,11 +424,11 @@
                     </a>
                 </li>
             </ul>
-            <a class="banner-left">&lt;</a>
-            <a class="banner-right">&gt;</a>
+            <a href="javasprict:;" class="banner-left">&lt;</a>
+            <a href="javasprict:;" class="banner-right">&gt;</a>
             <div class="banner-btn">
                 <ul>
-                    <li></li>
+                    <li style="background:#b59ca0"></li>
                     <li></li>
                     <li></li>
                     <li></li>
@@ -152,46 +438,1154 @@
                 </ul>
             </div>
             <div class="banner-list">
-                <ul>
-                    <li>
+                <ul class="bannerlist">
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">手机 电话卡</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
+                       
+
+
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">笔记本 平板</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).pngimg/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">电视 盒子</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src=img/img (1).png"img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">路由器 智能硬件</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (2).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (2).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (2).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (2).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (2).jpg" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">移动电源 电池 插板线</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).pngimg/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">耳机 音响</div>
                         <div class="banner-list-right">&gt;</div>
+                       <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">保护套 贴膜</div>
                         <div class="banner-list-right">&gt;</div>
+                       <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                          
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">线材 支架 存储卡</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                          
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul>
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">箱包 服饰 鞋 眼睛</div>
                         <div class="banner-list-right">&gt;</div>
+                      <div class="itme">
+                            
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                            </ul> 
+                        </div>
                     </li>
-                    <li>
+                    <li class="bannerlist-li">
                         <div class="banner-list-left">米兔 生活周边</div>
                         <div class="banner-list-right">&gt;</div>
+                        <div class="itme">
+                            <ul class="itme-ul">
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                                <li>
+                                    <a href="" class="itme-li-a1">
+                                        <img src="img/img (1).png" alt="">
+                                        <span>小米Note3</span>
+                                    </a>
+                                    <a href="" class="itme-li-a2">选购</a>
+                                </li>
+                               
+                            </ul>
+                           
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -202,16 +1596,19 @@
         <div class="star-title">
         	<div class="title-word">小米明星单品</div>
         	<div class="title-button">
-        		<a href="" class="title-button-left"><</a>
-        		<a href="" class="title-button-right">></a>		
+               
+                <button class="hot">&lt;</button>
+                 <button>&gt;</button>
+
         	</div>
         </div>
         <!-- 单品 -->
-        <div class="danpin">
+        <div class="danpin-content">  
+            <div class="danpin">
         	<div class="danpin-box">
-        	<a href="img/dianpin-toothbrush.png" class="box-img">
+        	   <a href="img/dianpin-toothbrush.png" class="box-img">
         		<img src="img/dianpin-toothbrush.png" alt="加载失败" title="牙刷">
-        	</a>
+        	   </a>
         		<div class="word">
         		<a href="img/dianpin-toothbrush.png" class="box-word1">
     	    		<div class="word1">贝医生巴氏牙刷（四色装）</div>
@@ -221,9 +1618,9 @@
     	    	</div>
     	    </div>
         	<div class="danpin-box">
-        	<a href="img/danpin-wristband.png">
+        	   <a href="img/danpin-wristband.png">
         		<img src="img/danpin-wristband.png" alt="加载失败" title="手环">
-        	</a>
+        	   </a>
         		<div class="word">
         		<a href="img/danpin-wristband.png" class="box-word1">
     	    		<div class="word1">小米手环2</div>
@@ -233,45 +1630,105 @@
     	    	</div>
         	</div>
         	<div class="danpin-box">
-        	<a href="img/danpin-electric cooker.png">
+        	   <a href="img/danpin-electric cooker.png">
         		<img src="img/danpin-electric cooker.png" alt="加载失败" title="电饭锅">
-        	</a>
+        	   </a>
         			<div class="word">
-        	<a href="img/danpin-electric cooker.png" class="box-word1">
+        	   <a href="img/danpin-electric cooker.png" class="box-word1">
     	    		<div class="word1">米加压力IH电饭煲</div>
-    	    </a>
+    	       </a>
     	    		<div class="word2">智能烹饪，压力IH加热技术</div>
     	    		<div class="word3">999元</div>
     	    	</div>
         	</div>
         	<div class="danpin-box">
-        	<a href="img/danpin-depurator.png">
+        	   <a href="img/danpin-depurator.png">
         		<img src="img/danpin-depurator.png" alt="加载失败" title="净化器">
-        	</a>
+        	   </a>
         		<div class="word">
-        	<a href="img/danpin-depurator.png" class="box-word1">
+        	   <a href="img/danpin-depurator.png" class="box-word1">
     	    		<div class="word1">米家空气净化器Pro</div>
-    	    </a>
+    	        </a>
     	    		<div class="word2">OLED显示屏幕，激光颗粒物传感器</div>
     	    		<div class="word3">1449元</div>
     	    	</div>
         	</div>
         	<div class="danpin-box">
-    		<a href="img/danpin-router.png">
+    		  <a href="img/danpin-router.png">
         		<img src="img/danpin-router.png" alt="加载失败" title="路由器">
-        	</a>
+        	   </a>
         		<div class="word">
-        	<a href="img/danpin-router.png" class="box-word1">
+        	   <a href="img/danpin-router.png" class="box-word1">
     	    		<div class="word1">小米路由器3</div>
-    	    </a>
+    	       </a>
     	    		<div class="word2">更快更强，不止四天线</div>
     	    		<div class="word3">129元</div>
     	    	</div>
         	</div>
-        	</div>
-        </div>
+            <div class="danpin-box">
+               <a href="img/dianpin-toothbrush.png" class="box-img">
+                <img src="img/dianpin-toothbrush.png" alt="加载失败" title="牙刷">
+               </a>
+                <div class="word">
+                <a href="img/dianpin-toothbrush.png" class="box-word1">
+                    <div class="word1">贝医生巴氏牙刷（四色装）</div>
+                </a>
+                    <div class="word2">德国进口刷毛，专利科学布局</div>
+                    <div class="word3">39.9元</div>
+                </div>
+            </div>
+            <div class="danpin-box">
+               <a href="img/danpin-wristband.png">
+                <img src="img/danpin-wristband.png" alt="加载失败" title="手环">
+               </a>
+                <div class="word">
+                <a href="img/danpin-wristband.png" class="box-word1">
+                    <div class="word1">小米手环2</div>
+                </a>
+                    <div class="word2">OLED显示屏幕，升级计步算法</div>
+                    <div class="word3">149元</div>
+                </div>
+            </div>
+            <div class="danpin-box">
+               <a href="img/danpin-electric cooker.png">
+                <img src="img/danpin-electric cooker.png" alt="加载失败" title="电饭锅">
+               </a>
+                    <div class="word">
+               <a href="img/danpin-electric cooker.png" class="box-word1">
+                    <div class="word1">米加压力IH电饭煲</div>
+               </a>
+                    <div class="word2">智能烹饪，压力IH加热技术</div>
+                    <div class="word3">999元</div>
+                </div>
+            </div>
+            <div class="danpin-box">
+               <a href="img/danpin-depurator.png">
+                <img src="img/danpin-depurator.png" alt="加载失败" title="净化器">
+               </a>
+                <div class="word">
+               <a href="img/danpin-depurator.png" class="box-word1">
+                    <div class="word1">米家空气净化器Pro</div>
+                </a>
+                    <div class="word2">OLED显示屏幕，激光颗粒物传感器</div>
+                    <div class="word3">1449元</div>
+                </div>
+            </div>
+            <div class="danpin-box">
+              <a href="img/danpin-router.png">
+                <img src="img/danpin-router.png" alt="加载失败" title="路由器">
+               </a>
+                <div class="word">
+               <a href="img/danpin-router.png" class="box-word1">
+                    <div class="word1">小米路由器3</div>
+               </a>
+                    <div class="word2">更快更强，不止四天线</div>
+                    <div class="word3">129元</div>
+                </div>
+            </div>
+            </div>
+         </div>
 
-		
+	<main>
 	<!-- 家电大盒子 -->
 <!-- 家电开始 -->
 	<div class="jiadian">
@@ -282,7 +1739,7 @@
 			    <a href="" class="head-right1">热门</a>
 			    <a href="" class="head-right1">电视影音</a>
 			    <a href="" class="head-right1">电脑</a>
-			    <a href="" class="head-right1 head-right2">家具</a>
+			    <a href="" class="head-right1">家具</a>
 				<!-- <div class="head-right1">热门</div>
 				<div class="head-right1">电视影音</div>
 				<div class="head-right1">电脑</div>
@@ -460,204 +1917,1364 @@
 					</div>
 				</div>
 			</div>
+            <div class="content-right">
+                <div class="list">
+                    <div class="youhui">享9.2折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4A 32"</a>
+                        <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">1099元</div>
+                            <div class="shuoming3-right">1199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                        <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">3999元</div>
+                            <div class="shuoming3-right">4399元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui1">新品</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                        <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                        <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9.5折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家恒温电水壶</a>
+                        <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">189元</div>
+                            <div class="shuoming3-right">199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家车载智能净化器"</a>
+                        <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">399元</div>
+                            <div class="shuoming3-right">449元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-3.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米空气净化器2"</a>
+                        <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                        <div class="shuoming3">699元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="listgai ">
+                    <div class="last1">
+                        <div class="last1-1">
+                            <a href="" class="last1-11">
+                                小白摄像机
+                            </a>
+                            <div class="last1-12">399元</div>
+                        </div>
+                        <a href="" class="last1-2">
+                            <img src="img/2-10.png" alt="">
+                        </a>
+                    </div>
+                    <div class="last2">
+                        <div class="last2-1">
+                            <a href="" class="last2-11">
+                                浏览更多
+                            </a>
+                            <div class="last2-12">热门</div>
+                        </div>
+                        <a href="" class="last2-2">
+                            <img src="img/2-11.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+           <div class="content-right">
+                <div class="list">
+                    <div class="youhui">享9.2折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4A 32"</a>
+                        <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">1099元</div>
+                            <div class="shuoming3-right">1199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                        <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">3999元</div>
+                            <div class="shuoming3-right">4399元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui1">新品</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                        <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                        <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9.5折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家恒温电水壶</a>
+                        <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">189元</div>
+                            <div class="shuoming3-right">199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家车载智能净化器"</a>
+                        <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">399元</div>
+                            <div class="shuoming3-right">449元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-4.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米空气净化器2"</a>
+                        <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                        <div class="shuoming3">699元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="listgai ">
+                    <div class="last1">
+                        <div class="last1-1">
+                            <a href="" class="last1-11">
+                                小白摄像机
+                            </a>
+                            <div class="last1-12">399元</div>
+                        </div>
+                        <a href="" class="last1-2">
+                            <img src="img/2-10.png" alt="">
+                        </a>
+                    </div>
+                    <div class="last2">
+                        <div class="last2-1">
+                            <a href="" class="last2-11">
+                                浏览更多
+                            </a>
+                            <div class="last2-12">热门</div>
+                        </div>
+                        <a href="" class="last2-2">
+                            <img src="img/2-11.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="list">
+                    <div class="youhui">享9.2折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4A 32"</a>
+                        <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">1099元</div>
+                            <div class="shuoming3-right">1199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                        <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">3999元</div>
+                            <div class="shuoming3-right">4399元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui1">新品</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                        <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                        <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                        <div class="shuoming3">5999元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9.5折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家恒温电水壶</a>
+                        <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">189元</div>
+                            <div class="shuoming3-right">199元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui">享9折</div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">米家车载智能净化器"</a>
+                        <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                        <div class="shuoming3">
+                            <div class="shuoming3-left">399元</div>
+                            <div class="shuoming3-right">449元</div>
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="list">
+                    <div class="youhui youhui2"></div>
+                    <a href="" class="kuang">
+                        <img src="img/2-5.png" alt="">
+                    </a>
+                    <div class="shuoming">
+                        <a href="" class="shuoming1">小米空气净化器2"</a>
+                        <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                        <div class="shuoming3">699元
+                            <!-- <div class="shuoming3-left">1099元</div> -->
+                            <!-- <div class="shuoming3-right">1199元</div> -->
+                        </div>
+                    </div>
+                    <a href="" class="tanchu">
+                        <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                        <div class="tanchu-bot">
+                            来自于 1307343441 的评价
+                        </div>
+                    </a>
+                </div>
+                <div class="listgai ">
+                    <div class="last1">
+                        <div class="last1-1">
+                            <a href="" class="last1-11">
+                                小白摄像机
+                            </a>
+                            <div class="last1-12">399元</div>
+                        </div>
+                        <a href="" class="last1-2">
+                            <img src="img/2-10.png" alt="">
+                        </a>
+                    </div>
+                    <div class="last2">
+                        <div class="last2-1">
+                            <a href="" class="last2-11">
+                                浏览更多
+                            </a>
+                            <div class="last2-12">热门</div>
+                        </div>
+                        <a href="" class="last2-2">
+                            <img src="img/2-11.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
 		</div>
 	</div>
 	<!-- 家电结束 -->
 	<!-- 结束 -->
 	<!-- 智能开始 -->
 	<div class="zhineng">
-	    <!-- 导航 -->
-		<div class="head">
-			<div class="head-left">智能</div>
-			<div class="zhineng3">
-			    <a href="" class="head-right1">热门</a>
-			    <a href="" class="head-right1">出行</a>
-			    <a href="" class="head-right1">健康</a>
-			    <a href="" class="head-right1">酷玩</a>
-			    <a href="" class="head-right1 head-right2">路由器</a>
-			</div>
-		</div>
-		<!-- 内容 -->
-		<div class="content">
-				
-			<div class="content">
-				<div class="list">
-					<a href="" class="zhineng1">
-						<img src="img/3-1.png" alt="">
-					</a>
-				</div>
-			<div class="content">
-				<div class="list">
-					<div class="youhui youhui2"></div>
-					<a href="" class="kuang">
-						<img src="img/3-2.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">米家扫地机器人</a>
-						<div class="shuoming2">智能路径规划,扫的干净扫的快</div>
-						<div class="shuoming3">1699元
-							
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+         
+            <div class="head">
+                <div class="head-left">智能</div>
+                <div class="head-right">
+                    <a href="" class="head-right1">热门</a>
+                    <a href="" class="head-right1">出行</a>
+                    <a href="" class="head-right1">健康</a>
+                    <a href="" class="head-right1">酷玩</a>
+                    <a href="" class="head-right1">路由器</a>
+                    
+                </div>
+            </div>
+        
+            <div class="content">
+                    <div class="content-left">
+                       <div class="content-left-top">
+                           <img src="img/3-6.png" alt="">
+                       </div>
+                       <div class="content-left-bottom">
+                           <img src="img/3-1.png" alt="">
+                       </div>
+                    </div>
+                <div class="content-right">
+                    <div class="list">
+                        <div class="youhui">享9.2折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4A 32"</a>
+                            <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list">
-					<div class="youhui zhineng2">有赠品</div>
-					<a href="" class="kuang">
-						<img src="img/3-3.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">小米体脂称</a>
-						<div class="shuoming2">简约纤薄,隐藏式LED显示屏</div>
-						<div class="shuoming3">199元
-							
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                            <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">3999元</div>
+                                <div class="shuoming3-right">4399元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list">
-					<div class="youhui">享9.3折</div>
-					<a href="" class="kuang">
-						<img src="img/3-4.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">小方摄像机</a>
-						<div class="shuoming2">1080P好清晰,看家看娃看宠物</div>
-						<div class="shuoming3">
-							<div class="shuoming3-left">119元</div>
-							<div class="shuoming3-right">129元</div>
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui1">新品</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                            <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list zhineng-s">
-					<div class="youhui youhui2"></div>
-					<a href="" class="kuang">
-						<img src="img/3-5.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">米家IH电饭煲 3L</a>
-						<div class="shuoming2">IH电磁环绕加热,3000+煮米方案</div>
-						<div class="shuoming3">399元
-							
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-6.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                            <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list">
-					
-					<a href="" class="zhineng1">
-						<img src="img/3-6.png" alt="">
-					</a>
-					
-				</div>
-				<div class="list">
-					<div class="youhui">享8折</div>
-					<a href="" class="kuang">
-						<img src="img/3-7.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">Yeelight床头灯"</a>
-						<div class="shuoming2">触摸式操作体验,给卧室1600万种颜色</div>
-						<div class="shuoming3">
-							<div class="shuoming3-left">199元</div>
-							<div class="shuoming3-right">249元</div>
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9.5折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-7.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家恒温电水壶</a>
+                            <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">189元</div>
+                                <div class="shuoming3-right">199元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list">
-					<div class="youhui youhui1">新品</div>
-					<a href="" class="kuang">
-						<img src="img/3-8.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">米家小相机</a>
-						<div class="shuoming2">清晰捕捉美好瞬间</div>
-						<div class="shuoming3">699元
-							
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-8.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家车载智能净化器"</a>
+                            <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">399元</div>
+                                <div class="shuoming3-right">449元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="list">
-					<div class="youhui">享9折</div>
-					<a href="" class="kuang">
-						<img src="img/3-9.png" alt="">
-					</a>
-					<div class="shuoming">
-						<a href="" class="shuoming1">米家iHealth血压计</a>
-						<div class="shuoming2">爸妈上手就会用的智能血压计</div>
-						<div class="shuoming3">
-							<div class="shuoming3-left">349元</div>
-							<div class="shuoming3-right">399元</div>
-						</div>
-					</div>
-					<a href="" class="tanchu">
-						<div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
-                        <div class="tanchu-bot">
-                        	来自于 1307343441 的评价
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-9.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米空气净化器2"</a>
+                            <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                            <div class="shuoming3">699元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
                         </div>
-					</a>
-				</div>
-				<div class="listgai zhineng-s">
-					<div class="last1">
-						<div class="last1-1">
-							<a href="" class="last1-11">
-								小米VR眼镜
-							</a>
-							<div class="last1-12">299元</div>
-						</div>
-						<a href="" class="last1-2">
-							<img src="img/3-10.png" alt="">
-						</a>
-					</div>
-					<div class="last2">
-						<div class="last2-1">
-							<a href="" class="last2-11">
-								浏览更多
-							</a>
-							<div class="last2-12">热门</div>
-						</div>
-						<a href="" class="last2-2">
-							<img src="img/2-11.png" alt="">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listgai ">
+                        <div class="last1">
+                            <div class="last1-1">
+                                <a href="" class="last1-11">
+                                    小白摄像机
+                                </a>
+                                <div class="last1-12">399元</div>
+                            </div>
+                            <a href="" class="last1-2">
+                                <img src="img/2-10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="last2">
+                            <div class="last2-1">
+                                <a href="" class="last2-11">
+                                    浏览更多
+                                </a>
+                                <div class="last2-12">热门</div>
+                            </div>
+                            <a href="" class="last2-2">
+                                <img src="img/2-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="list">
+                        <div class="youhui">享9.2折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4A 32"</a>
+                            <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                            <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">3999元</div>
+                                <div class="shuoming3-right">4399元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui1">新品</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                            <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                            <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9.5折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家恒温电水壶</a>
+                            <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">189元</div>
+                                <div class="shuoming3-right">199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家车载智能净化器"</a>
+                            <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">399元</div>
+                                <div class="shuoming3-right">449元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米空气净化器2"</a>
+                            <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                            <div class="shuoming3">699元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listgai ">
+                        <div class="last1">
+                            <div class="last1-1">
+                                <a href="" class="last1-11">
+                                    小白摄像机
+                                </a>
+                                <div class="last1-12">399元</div>
+                            </div>
+                            <a href="" class="last1-2">
+                                <img src="img/2-10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="last2">
+                            <div class="last2-1">
+                                <a href="" class="last2-11">
+                                    浏览更多
+                                </a>
+                                <div class="last2-12">热门</div>
+                            </div>
+                            <a href="" class="last2-2">
+                                <img src="img/2-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               <div class="content-right">
+                    <div class="list">
+                        <div class="youhui">享9.2折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4A 32"</a>
+                            <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                            <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">3999元</div>
+                                <div class="shuoming3-right">4399元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui1">新品</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                            <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                            <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9.5折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家恒温电水壶</a>
+                            <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">189元</div>
+                                <div class="shuoming3-right">199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家车载智能净化器"</a>
+                            <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">399元</div>
+                                <div class="shuoming3-right">449元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米空气净化器2"</a>
+                            <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                            <div class="shuoming3">699元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listgai ">
+                        <div class="last1">
+                            <div class="last1-1">
+                                <a href="" class="last1-11">
+                                    小白摄像机
+                                </a>
+                                <div class="last1-12">399元</div>
+                            </div>
+                            <a href="" class="last1-2">
+                                <img src="img/2-10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="last2">
+                            <div class="last2-1">
+                                <a href="" class="last2-11">
+                                    浏览更多
+                                </a>
+                                <div class="last2-12">热门</div>
+                            </div>
+                            <a href="" class="last2-2">
+                                <img src="img/2-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="list">
+                        <div class="youhui">享9.2折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4A 32"</a>
+                            <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                            <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">3999元</div>
+                                <div class="shuoming3-right">4399元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui1">新品</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                            <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                            <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9.5折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家恒温电水壶</a>
+                            <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">189元</div>
+                                <div class="shuoming3-right">199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家车载智能净化器"</a>
+                            <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">399元</div>
+                                <div class="shuoming3-right">449元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米空气净化器2"</a>
+                            <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                            <div class="shuoming3">699元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listgai ">
+                        <div class="last1">
+                            <div class="last1-1">
+                                <a href="" class="last1-11">
+                                    小白摄像机
+                                </a>
+                                <div class="last1-12">399元</div>
+                            </div>
+                            <a href="" class="last1-2">
+                                <img src="img/2-10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="last2">
+                            <div class="last2-1">
+                                <a href="" class="last2-11">
+                                    浏览更多
+                                </a>
+                                <div class="last2-12">热门</div>
+                            </div>
+                            <a href="" class="last2-2">
+                                <img src="img/2-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <div class="list">
+                        <div class="youhui">享9.2折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-3.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4A 32"</a>
+                            <div class="shuoming2">64位四核处理器/1GB+4GB大内存</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-4.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米电视4 55英寸"</a>
+                            <div class="shuoming2">4.99mm超薄机身/4k高清HDR</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">3999元</div>
+                                <div class="shuoming3-right">4399元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui1">新品</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-5.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Pro 15.6英寸"</a>
+                            <div class="shuoming2">全金属强化机身/FHD全贴合屏幕</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-6.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米笔记本Air 13.1"i7处理器</a>
+                            <div class="shuoming2">Inter酷睿i7处理器,8GB内存+256GB</div>
+                            <div class="shuoming3">5999元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9.5折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-7.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家恒温电水壶</a>
+                            <div class="shuoming2">水温智能控制,304不锈钢内胆</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">189元</div>
+                                <div class="shuoming3-right">199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui">享9折</div>
+                        <a href="" class="kuang">
+                            <img src="img/2-8.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">米家车载智能净化器"</a>
+                            <div class="shuoming2">双风机循环气流,高效净化车内空气</div>
+                            <div class="shuoming3">
+                                <div class="shuoming3-left">399元</div>
+                                <div class="shuoming3-right">449元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="list">
+                        <div class="youhui youhui2"></div>
+                        <a href="" class="kuang">
+                            <img src="img/2-9.png" alt="">
+                        </a>
+                        <div class="shuoming">
+                            <a href="" class="shuoming1">小米空气净化器2"</a>
+                            <div class="shuoming2">10分钟,房间空气焕然一新</div>
+                            <div class="shuoming3">699元
+                                <div class="shuoming3-left">1099元</div>
+                                <div class="shuoming3-right">1199元</div>
+                            </div>
+                        </div>
+                        <a href="" class="tanchu">
+                            <div href="" class="tanchu-top">电视犹如客服妹子让我好等,中午到了超级喜欢，客服妹子...</div>
+                            <div class="tanchu-bot">
+                                来自于 1307343441 的评价
+                            </div>
+                        </a>
+                    </div>
+                    <div class="listgai ">
+                        <div class="last1">
+                            <div class="last1-1">
+                                <a href="" class="last1-11">
+                                    小白摄像机
+                                </a>
+                                <div class="last1-12">399元</div>
+                            </div>
+                            <a href="" class="last1-2">
+                                <img src="img/2-10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="last2">
+                            <div class="last2-1">
+                                <a href="" class="last2-11">
+                                    浏览更多
+                                </a>
+                                <div class="last2-12">热门</div>
+                            </div>
+                            <a href="" class="last2-2">
+                                <img src="img/2-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	<!-- 智能结束 -->
    <!-- 热评 -->
         <div class="reping">
@@ -727,76 +3344,194 @@
 		</div>
 		<div class="neirong-list">
 			<div class="neirong-lb">
-				<div class="biaoyu">
-					<div class="wz-yh">图书</div>
+                <div class="wz-yh">图书</div>
+				<div class="biaoyu act">
+					
 					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
 					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
 					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
 					<a href=""><div class="wz-wh">29.37元</div></a>
-				</div>
-				<a href=""><div class="neirong-tu">
+				
+				    <a href=""><div class="neirong-tu">
 					<img src="img/tt1_03.png" alt="">
-				</div></a>
-				<a href=""><div class="zuofh">
-					<div class="zuofh-fh">&lt;</div>
-				</div>
-				<div class="youfh">
-					<div class="youfh-fh">&lt;</div>
-				</div></a>
-			</div>
-			<div class="neirong-lb">
-				<div class="biaoyu">
-					<div class="wz-yh">图书</div>
-					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
-					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
-					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
-					<a href=""><div class="wz-wh">29.37元</div></a>
-				</div>
-				<a href=""><div class="neirong-tu">
-					<img src="img/tt2_03.png" alt="">
-				</div></a>
-				<a href=""><div class="zuofh">
-					<div class="zuofh-fh">&lt;</div>
-				</div>
-				<div class="youfh">
-					<div class="youfh-fh">&gt;</div>
-				</div></a>
-			</div>
-			<div class="neirong-lb">
-				<div class="biaoyu">
-					<div class="wz-yh">图书</div>
-					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
-					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
-					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
-					<a href=""><div class="wz-wh">29.37元</div></a>
-				</div>
-				<a href=""><div class="neirong-tu">
-					<img src="img/tt3_03.png" alt="">
-				</div></a>
-				<a href=""><div class="zuofh">
+				    </div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt3_03.png" alt="">
+                    </div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt2_03.png" alt="">
+                    </div></a>
+                </div>
+				<div class="zuofh">
 					<div class="zuofh-fh">&lt;</div>
 				</div>
 				<div class="youfh">
 					<div class="youfh-fh">&gt;</div>
-				</div></a>
+				</div>
+                <ul class="neirong-btn">
+                    <li class="btnhot"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
 			</div>
 			<div class="neirong-lb">
-				<div class="biaoyu">
-					<div class="wz-yh">图书</div>
+                <div class="wz-yh">图书</div>
+				<div class="biaoyu act">
+					
 					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
 					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
 					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
 					<a href=""><div class="wz-wh">29.37元</div></a>
-				</div>
-				<a href=""><div class="neirong-tu">
-					<img src="img/tt4_03.png" alt="">
-				</div></a>
-				<a href=""><div class="zuofh">
+				
+    				<a href=""><div class="neirong-tu">
+    					<img src="img/tt2_03.png" alt="">
+    				</div></a>
+                </div>
+                 <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt3_03.png" alt="">
+                    </div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt1_03.png" alt="">
+                    </div></a>
+                </div>
+				<div class="zuofh">
 					<div class="zuofh-fh">&lt;</div>
 				</div>
 				<div class="youfh">
 					<div class="youfh-fh">&gt;</div>
-				</div></a>
+				</div>
+                  <ul class="neirong-btn">
+                    <li class="btnhot"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+			</div>
+			<div class="neirong-lb">
+                <div class="wz-yh">图书</div>
+				<div class="biaoyu act">
+					
+					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+					<a href=""><div class="wz-wh">29.37元</div></a>
+				
+    				<a href=""><div class="neirong-tu">
+    					<img src="img/tt3_03.png" alt="">
+    				</div></a>
+                </div>
+                 <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt1_03.png" alt="">
+                    </div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt2_03.png" alt="">
+                    </div></a>
+                </div>
+				<div class="zuofh">
+					<div class="zuofh-fh">&lt;</div>
+				</div>
+				<div class="youfh">
+					<div class="youfh-fh">&gt;</div>
+				</div>
+                  <ul class="neirong-btn">
+                    <li class="btnhot"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+			</div>
+			<div class="neirong-lb">
+                <div class="wz-yh">图书</div>
+				<div class="biaoyu act">
+					
+					<a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+					<a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+					<a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+					<a href=""><div class="wz-wh">29.37元</div></a>
+				
+    				<a href=""><div class="neirong-tu">
+    					<img src="img/tt4_03.png" alt="">
+    				</div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <a href=""><div class="neirong-tu">
+                        <img src="img/tt1_10.png" alt="">
+                    </div></a>
+                </div>
+                <div class="biaoyu">
+                    
+                    <a href=""><div class="wz-eh">哈利·波特与被诅咒的孩子</div></a>
+                    <a href=""><div class="wz-sh">"哈利·波特第八个故事中文版震撼来"</div></a>
+                    <a href=""><div class="wz-sh">袭！特别彩排版剧本</div></a>
+                    <a href=""><div class="wz-wh">29.37元</div></a>
+                
+                    <div class="neirong-tu">
+                        <img src="img/tt2_03.png" alt="">
+                    </div>
+                   
+                </div>
+				<div class="zuofh">
+					<div class="zuofh-fh">&lt;</div>
+				</div>
+				<div class="youfh">
+					<div class="youfh-fh">&gt;</div>
+				</div>
+                 <ul class="neirong-btn">
+                        <li class="btnhot"></li>
+                        <li></li>
+                        <li></li>
+                </ul>
 			</div>
 		</div>
 	</div>
@@ -833,6 +3568,7 @@
 				</div></div>
 		</div>
 	</div>
+    </main>
 	<!-- 视屏结束 -->
 	<!-- 结束语开始 -->
 	<!-- 尾部开始 -->
